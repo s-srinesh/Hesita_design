@@ -1,0 +1,117 @@
+.review-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F7FAFC;
+  padding: 40px 20px;
+  font-family: 'Jost', sans-serif;
+}
+
+.review-page h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 32px;
+  color: #292F36;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.review-page form {
+  background-color: transparent;
+  padding: 30px 25px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: none;
+}
+
+.review-page input,
+.review-page textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #CDA274;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #292F36;
+  font-family: 'Jost', sans-serif;
+}
+
+.review-page input:focus,
+.review-page textarea:focus {
+  outline: none;
+  border-color: #CDA274;
+  box-shadow: 0 0 8px rgba(205, 162, 116, 0.4);
+}
+
+.review-page button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background-color: #292F36;
+  color: white;
+  font-size: 16px;
+  font-family: 'Jost', sans-serif;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.review-page button[type="submit"]:hover {
+  background-color: #CDA274;
+}
+
+.booking-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #CDA274;
+  color: white;
+  font-size: 16px;
+  font-family: 'Jost', sans-serif;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-button:hover {
+  background-color: #292F36;
+}
+
+.all-reviews {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.all-reviews h3 {
+  font-size: 24px;
+  color: #292F36;
+  margin-bottom: 20px;
+  font-family: 'DM Serif Display', serif;
+}
+
+.review-card {
+  background-color: white;
+  border: 1px solid #E4E4E4;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.review-card strong {
+  font-size: 16px;
+  color: #292F36;
+}
+
+.review-card p {
+  margin: 10px 0;
+  color: #4D5053;
+}
+
+.review-card small {
+  color: #A0AEC0;
+  font-size: 12px;
+}

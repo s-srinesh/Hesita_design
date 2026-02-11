@@ -1,0 +1,82 @@
+.booking-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#F7FAFC;
+    padding: 40px 20px;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .booking-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    color: #292F36;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .booking-card {
+    background-color: transparent;
+    padding: 30px 25px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    border: none;         /* Optional: remove if previously added */
+    box-shadow: none;     /* Optional: remove if previously added */
+  }
+  
+  
+  .booking-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #4D5053;
+  }
+  
+  .booking-form input,
+  .booking-form select,
+  .booking-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #CDA274;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #292F36;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .booking-form input:focus,
+  .booking-form select:focus,
+  .booking-form textarea:focus {
+    outline: none;
+    border-color: #CDA274;
+    box-shadow: 0 0 8px rgba(205, 162, 116, 0.4);
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #292F36;
+    color: white;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #CDA274;
+  }
+  
+  .booking-message {
+    margin-bottom: 20px;
+    text-align: center;
+    color: green;
+    font-size: 14px;
+  }
+  

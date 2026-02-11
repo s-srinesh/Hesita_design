@@ -1,0 +1,29 @@
+{
+    "services": [
+      {
+        "service_name": "Living Room",
+        "service_content": "Stylish, functional living rooms tailored to your comfort and lifestyle."
+      },
+      {
+        "service_name": "Bedroom",
+        "service_content": "Serene, personalized bedrooms designed for rest and relaxation."
+      },
+      {
+        "service_name": "Hall Design",
+        "service_content": "Elegant, spacious halls that are welcoming and versatile."
+      },
+      {
+        "service_name": "Bathroom",
+        "service_content": "Modern, spa-like bathrooms combining luxury and practicality."
+      },
+      {
+        "service_name": "Kitchen",
+        "service_content": "Stylish, functional kitchens with smart layouts and storage."
+      },
+      {
+        "service_name": "Full Home Design",
+        "service_content": "Complete interior solutions with cohesive, personalized style."
+      }
+    ]
+  }
+  

@@ -1,0 +1,104 @@
+/* Admin Signup Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7fafc;
+  }
+.adminSignup {
+    width: 100%;
+    height: 100vh;
+    background-color: #F7FAFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminSignupForm {
+    width: 90%;
+    max-width: 400px;
+    background-color: transparent; /* fully transparent */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: none; /* optional: remove shadow if you want it cleaner */
+    text-align: center;
+}
+
+.adminSignupForm h2 {
+    font-family: 'Dm Serif Display', serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #292F36;
+}
+
+.adminSignupForm p {
+    font-family: 'Jost', sans-serif;
+    color: #4D5053;
+    margin-bottom: 15px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #CDA274;
+    border-radius: 10px;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    color: #292F36;
+}
+
+.inputField:focus {
+    outline: none;
+    border-color: #CDA274;
+    box-shadow: 0 0 8px rgba(205, 162, 116, 0.5);
+}
+
+.submitButton {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #292F36;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #CDA274;
+}
+
+.message {
+    margin-top: 10px;
+    color: #CDA274;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+}
+
+.message.error {
+    color: red;
+}
+
+.message.success {
+    color: green;
+}
+
+.redirectButton {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #F4F0EC;
+    color: #292F36;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    border: 1px solid #292F36;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.redirectButton:hover {
+    background-color: #CDA274;
+}

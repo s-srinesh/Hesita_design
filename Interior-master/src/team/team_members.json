@@ -1,0 +1,10 @@
+{"members" : [
+    {"fullname": "Ram Charan", "job": "CEO", "country": "India", "image":"m0", "mail":"levi@email.com"},
+    {"fullname": "Sathguru", "job": "Design", "country": "India", "image":"m1", "mail":"levi@email.com"},
+    {"fullname": "Sai sarran", "job": "Design", "country": "India", "image":"m2", "mail":"levi@email.com"},
+    {"fullname": "Suresh", "job": "Design", "country": "India", "image":"m3", "mail":"levi@email.com"},
+    {"fullname": "Varshini shilin", "job": "Design", "country": "India", "image":"m4", "mail":"levi@email.com"},
+    {"fullname": "Janani", "job": "Design", "country": "India", "image":"m5", "mail":"levi@email.com"},
+    {"fullname": "Harini", "job": "Design", "country": "India", "image":"m6", "mail":"levi@email.com"},
+    {"fullname": "Sasi", "job": "Design", "country": "India", "image":"m7", "mail":"levi@email.com"}
+]}

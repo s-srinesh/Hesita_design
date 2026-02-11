@@ -1,0 +1,13 @@
+{
+    "projects": [
+      {"project_name": "Minimal Bedroom", "image": "project1"},
+      {"project_name": "Modern Bedroom", "image": "project2"},
+      {"project_name": "Classic Minimal Bedroom", "image": "project3"},
+      {"project_name": "Modern Bedroom", "image": "project4"},
+      {"project_name": "Minimal Bedroom Table", "image": "project5"},
+      {"project_name": "System Table", "image": "project6"},
+      {"project_name": "Minimal Bedroom", "image": "project7"},
+      {"project_name": "Minimal Bedroom", "image": "project8"}
+    ]
+  }
+  

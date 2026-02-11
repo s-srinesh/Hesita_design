@@ -1,0 +1,100 @@
+.op-project {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+  margin: 2% 2%;
+  flex: 1 1 310px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for better visual */
+  border-radius: 15px; /* Rounded corners */
+  transition: transform 0.3s ease; /* Add smooth hover effect */
+}
+
+.op-project:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.op-pro-img {
+  width: 100%;
+  height: 250px; /* Fixed height to maintain consistency */
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.op-pro-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the area */
+  transition: transform 0.3s ease;
+}
+
+.op-pro-img:hover > img {
+  transform: scale(1.1); /* Slight zoom effect on image hover */
+}
+
+.op-pro-detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px; /* Add padding for spacing */
+}
+
+.op-pro-info {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+}
+
+.op-prj-title {
+  font-family: "DM Serif Display", serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8% 0 4% 0;
+  color: #292f36; /* Title color */
+  text-transform: capitalize; /* Capitalize the project title */
+}
+
+.op-prj-path {
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  color: #4d5053; /* Path color */
+  margin: 0;
+}
+
+.op-pro-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18%;
+  padding: 10px 0;
+}
+
+.op-pro-btn > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.op-pro-btn > a > button {
+  width: 45px; /* Adjust width */
+  height: 45px; /* Adjust height */
+  border-radius: 50%;
+  background-color: #cda274; /* Button color */
+  border: none;
+  font-size: 22px;
+  color: white; /* Icon color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.op-pro-btn > a > button:hover {
+  background-color: #b68b63; /* Darker shade on hover */
+}
+
+.op-pro-btn > a > button:focus {
+  outline: none; /* Remove focus outline */
+}
